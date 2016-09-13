@@ -6,7 +6,7 @@
 </head>
 <body>
 FreeMarker模板引擎
-<h1>${host}</h1>
+<h1>用户列表</h1>
 <#list users as user>
    ${user.id}-->${user.name}<br>
 </#list>
